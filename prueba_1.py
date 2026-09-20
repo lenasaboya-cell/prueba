@@ -1,4 +1,4 @@
 import streamlit as st
 
 st.title ("Haz cambios")
-st.sidebar.title
+st.sidebar.title("Parametros")
