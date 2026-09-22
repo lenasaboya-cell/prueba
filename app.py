@@ -6,6 +6,10 @@ import numpy as np
 import libreria_funciones_proyecto1 as lfunc
 import librería_clases_proyecto1 as lclases
 
+# Agregar Logo DMC
+st.image("Imagen DMC.png", width=100)
+
+
 # Configuración de página
 st.set_page_config(
     page_title="Academia de Analytics - Módulo 1",
@@ -13,28 +17,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# =========================================================
-# MENÚ LATERAL CON IMAGEN EN LA ESQUINA IZQUIERDA
-# =========================================================
-with st.sidebar:
-    # Columna izquierda para la imagen y derecha para el espacio
-    col_img, col_vacia = st.columns([1, 2])
-    with col_img:
-        # 📸 LÍNEA PARA IMPORTAR Y UBICAR TU IMAGEN EN LA ESQUINA IZQUIERDA:
-        st.image("Imagen DMC.png", width=100)  # Reemplaza "tu_imagen.png" con el nombre de tu archivo
-
-    st.markdown("""
-        <div style="text-align: left; padding: 5px 0;">
-            <h2 style="color: #60A5FA !important; margin:0;">🎓 ACADEMIA</h2>
-            <p style="font-size: 12px; color: #94A3B8 !important;">Python for Analytics</p>
-        </div>
-        <hr style="border-color: #334155; margin-top: 5px;">
-    """, unsafe_allow_html=True)
-
-    opcion = st.selectbox(
-        "Seleccione un módulo/sección:",
-        ["Home", "Ejercicio 1", "Ejercicio 2", "Ejercicio 3", "Ejercicio 4"]
-    )
 
 # =========================================================
 # ESTILOS CSS PERSONALIZADOS (Paleta Academia de Estudios)
