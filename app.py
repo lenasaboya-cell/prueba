@@ -13,7 +13,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.image("Imagen DMC.png", caption="Logo Institucional", width=50)
+st.image("Imagen DMC.png", caption="Logo Institucional", width=100)
 
 # =========================================================
 # ESTILOS CSS PERSONALIZADOS (Paleta Academia de Estudios)
