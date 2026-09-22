@@ -128,10 +128,12 @@ if opcion == "Home":
         st.markdown("""
             <div class="student-card">
                 <h3 style="margin-top:0;">👨‍🎓 Perfil del Estudiante</h3>
-                <p><b>Nombre Completo:</b> Estudiante DMC</p>
-                <p><b>Módulo:</b> Python Fundamentals</p>
+                <p><b>Nombre Completo:</b> Lena Nicole Saboya Rivas </p>
+                <p><b>Carrera:</b> Bachiller en Administración de Empresas </p>
+                <p><b>Módulo:</b> Módulo 1: Python Fundamentals </p>
                 <p><b>Fecha:</b> 2026</p>
                 <p><b>Estado:</b> <span style="color: #16A34A; font-weight: bold;">Activo</span></p>
+                <p><b>Tecnologías usadas:</b> Python, GitHub y streamlit </p>
             </div>
         """, unsafe_allow_html=True)
 
